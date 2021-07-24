@@ -108,6 +108,9 @@ const MainNavigator = createDrawerNavigator(
             activeTintColor: Color.accentColor,
             labelStyle: {
                 fontFamily: 'open-sans-bold'
+            },
+            itemsContainerStyle: {
+                marginTop: 37
             }
         }
     }
